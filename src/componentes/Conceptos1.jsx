@@ -7,8 +7,8 @@ export const Conceptos1 = () => {
     return(
         <>
             <h1>MANUAL BOOTSTRAP 5</h1>
-            <br /><br />
-            <h4>CONCEPTOS I</h4>
+            <br />
+            <h4>CONCEPTOS I (Posicionamiento)</h4>
             <ul>
                 <li>
                     <b>Float: </b> nos permite enfloat un elemento ya sea a la izquierda o a la derecha. [float-direccion], [float-tamaño-direccion],

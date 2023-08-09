@@ -5,6 +5,7 @@ import { Home } from './componentes/Home';
 import { ColoresBoots } from './componentes/ColoresBoots';
 import { Conceptos1 } from './componentes/Conceptos1';
 import { Conceptos2 } from './componentes/Conceptos2';
+import { Conceptos3 } from './componentes/Conceptos3';
 
 export const AppRouter = () => {
     return(
@@ -15,6 +16,7 @@ export const AppRouter = () => {
                 <Route path='/bordescoloresBoots' element={<ColoresBoots/>}/>
                 <Route path='/conceptos1' element={<Conceptos1/>}/>
                 <Route path='/conceptos2' element={<Conceptos2/>}/>
+                <Route path='/conceptos3' element={<Conceptos3/>}/>
                 {/* <Route path='/category/:category' element={<CategoryPage/>} /> */}
             </Routes>
         </>

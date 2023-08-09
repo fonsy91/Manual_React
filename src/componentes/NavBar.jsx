@@ -49,6 +49,7 @@ export const  NavBar = () => {
                             <li><Link to="/bordescoloresBoots">Bordes y Colores</Link></li>
                             <li><Link to="/conceptos1">Conceptos 1</Link></li>
                             <li><Link to="/conceptos2">Conceptos 2</Link></li>
+                            <li><Link to="/conceptos3">Conceptos 3</Link></li>
                         </ul>
                     </li>
                     <li className="dropdown">

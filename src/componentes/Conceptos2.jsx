@@ -7,8 +7,8 @@ export const Conceptos2 = () => {
     return(
         <>
             <h1>MANUAL BOOTSTRAP 5</h1>
-            <br /><br />
-            <h4>CONCEPTOS II</h4>
+            <br />
+            <h4>CONCEPTOS II (Flexbox)</h4>
             <ul>
                 <li>
                     <b>Flexbox (Clases del elemento padre): </b> link de interes: <a href="https://codepen.io/enxaneta/full/adLPwv/" target="_blank">codepen</a>
