@@ -1,0 +1,58 @@
+.caja {
+    --tamano: 150px;
+    height: var(--tamano);
+    width: var(--tamano);
+    border: 10px ridge yellow;
+}
+
+.contenedor {
+    --tamano: 400px;
+    width: var(--tamano);
+    height: var(--tamano);
+}
+
+.caja2 {
+    --tamano: 120px;
+    width: var(--tamano);
+    height: var(--tamano);
+}
+
+.posicion {
+    bottom: 40px;
+}
+
+.contenedor2 {
+    --tamano: 400px;
+    width: var(--tamano);
+}
+
+.posicion2 {
+    top: 20px;
+}
+
+.contenedor3 {
+    --tamano: 300px;
+    width: var(--tamano);
+    height: var(--tamano);
+}
+
+/**/
+.desbord {
+    width: 60px;
+    height: 60px;
+}
+
+.spanCon {
+    background-color: lightblue;
+    font-size: 12px;
+}
+
+.pCon {
+    background-color: #dad9d9;
+    text-decoration: underline #2e2e2e;
+}
+
+.tabla {
+    height: 100px;
+    border: #2e2e2e;
+}
