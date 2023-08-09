@@ -16,3 +16,4 @@ export default App
 // Rutas: npm install react-router-dom
 
 // Sidebar para el manual: https://codepen.io/tio-jevero-the-styleful/pen/MdZQBo
+// Ejecutar aplicacion: npm run dev
