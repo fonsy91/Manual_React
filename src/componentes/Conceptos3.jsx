@@ -45,7 +45,37 @@ export const Conceptos3 = () => {
                     </figure>
                 </article>
             </div>
-            <p>VAMOS POR EL VIDEO 69</p>
+            <h5>-Tablas</h5>
+            <ul>
+                <li>
+                    <b>Clase general: </b> la clase general para las tablas es *table
+                </li>
+                <li>
+                    <b>Colores: </b> para la tabla en general *table-dark, para la etiqueta thead usamos table-dark o table-light y 
+                    para todas las etiquetas de la tabla [table-opcion] las opciones son: primary, secondary, success, danger, warning, info,
+                    light, dark y para los colores de fondo [bg-opcion] las opciones son las mismas que arriab.
+                </li>
+            </ul>
+            <br />
+            <table className='table'>
+                <caption>Descripcion de mi tabla</caption>
+                <thead className='table-dark'>
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                        <th>Encabezado 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr className='table-primary'>
+                        <td className='bg-success'>Contenido 1</td>
+                        <td>Contenido 2</td>
+                        <td>Contenido 3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>VAMOS POR EL VIDEO 71</p>
         </>
     );
 }
